@@ -1,11 +1,19 @@
-import React from 'react';
+import React from "react";
 import MainContent from "@/components/Cards/MainContent";
 
 const Home = () => {
   return (
-  <> 
-  <MainContent/>
-  </>
+    <>
+      {/* Navbar */}
+
+      {/* End */}
+      {/* Jumbotron */}
+
+      {/* End */}
+      {/* Jurusan */}
+      <MainContent />
+      {/* End */}
+    </>
   );
 };
 
