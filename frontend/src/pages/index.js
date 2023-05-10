@@ -1,8 +1,12 @@
-import Footer from "@/components/layouts/Footer";
-import { Inter } from "next/font/google";
+import React from 'react';
+import MainContent from "@/components/Cards/MainContent";
 
-const inter = Inter({ subsets: ["latin"] });
+const Home = () => {
+  return (
+  <> 
+  <MainContent/>
+  </>
+  );
+};
 
-export default function Home() {
-  return <Footer />;
-}
+export default Home;
