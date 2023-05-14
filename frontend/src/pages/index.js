@@ -1,5 +1,7 @@
 import React from "react";
-import MainContent from "@/components/Cards/MainContent";
+import MainContent from "@/components/Cards/Field/MainContent";
+import CollaborationHeader from "@/components/Collaborator/Header";
+import CollaboratorImg from "@/components/Collaborator/CollaboratorImg";
 
 const Home = () => {
   return (
@@ -13,6 +15,13 @@ const Home = () => {
       {/* Jurusan */}
       <MainContent />
       {/* End */}
+      {/* CollaborationHeader */}
+      <CollaborationHeader/>
+      {/* End */}
+      {/* Collabor */}
+      <CollaboratorImg/>
+      {/* End */}
+    
     </>
   );
 };

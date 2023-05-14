@@ -2,17 +2,18 @@ import React from 'react'
 
 const CardContent = ({ imageSrc, title, description }) => {
     return (
-      <div className="mx-auto shadow-xl rounded-xl overflow-hidden"
+      <div className="shadow-xl rounded-xl overflow-hidden"
       style={{
-        width: "250px",
-        height: "400px",
+        width: "320px",
+        height: "500px",
         background: "#211E2E",
+        color: "white",
         backgroundImage: "radial-gradient(circle at center, rgba(67, 61, 96, 0.7) 0%, rgba(67, 61, 96, 0) 70%)",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        borderRadius: "20px"
+        borderRadius: "40px"
       }}
       
       >
@@ -33,7 +34,7 @@ const CardContent = ({ imageSrc, title, description }) => {
             {title}
           </h2>
           <hr className="w-40 mx-auto mb-4 border-b-2 border-purple-200 opacity-50" />
-          <p className="mt-2 text-base" style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '12px' }}>
+          <p className="mt-2 text-base" style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16x' }}>
             {description}
           </p>
           <div className="mt-4">
