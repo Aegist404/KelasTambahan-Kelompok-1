@@ -1,14 +1,26 @@
-import Footer from "@/components/layouts/Footer";
+import React from "react";
+import MainContent from "@/components/Cards/MainContent";
+import Jumbotron from "@/components/Jumbotron/Jumbotron";
+import InfoContact from "@/components/InfoContact/InfoContact";
 import Navbar from "@/components/layouts/Navbar";
-import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
+const Home = () => {
   return (
-    <div>
+    <>
+      {/* Navbar */}
       <Navbar />
-     <Footer/>
-    </div>
+      {/* End */}
+      {/* Jumbotron */}
+      <Jumbotron />
+      {/* Info Contact */}
+      <InfoContact />
+      
+      {/* End */}
+      {/* Jurusan */}
+      <MainContent />
+      {/* End */}
+    </>
   );
-}
+};
+
+export default Home;
