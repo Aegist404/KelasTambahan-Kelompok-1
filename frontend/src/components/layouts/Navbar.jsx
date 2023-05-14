@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="bg-[#343045] flex  text-[#FFFFFF] py-[20px]">
+    <nav className=" flex  text-[#FFFFFF] py-[20px]">
       <div className="flex items-center ps-[50px] w-full">
         <img src="./Logo.png" alt="logo sekolah" className="w-20 me-2" />
         <p className="text-[#C0B7E8] text-[20px] w-full">
