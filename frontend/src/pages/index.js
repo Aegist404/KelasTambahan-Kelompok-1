@@ -10,6 +10,10 @@ const Home = () => {
       {/* Jumbotron */}
 
       {/* End */}
+      {/* Headmaster */}
+      
+
+      {/* End */}
       {/* Jurusan */}
       <MainContent />
       {/* End */}
