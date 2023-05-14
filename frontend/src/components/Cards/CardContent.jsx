@@ -7,7 +7,7 @@ const CardContent = ({ imageSrc, title, description }) => {
         width: "250px",
         height: "400px",
         background: "#211E2E",
-        backgroundImage: "radial-gradient(circle at center, rgba(67, 61, 96, 0.7) 0%, rgba(67, 61, 96, 0) 70%)",
+        backgroundImage: "(radial-gradient(circle at center, rgba(67, 61, 96, 0.7) 0%, rgba(67, 61, 96, 0) 70%)",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
