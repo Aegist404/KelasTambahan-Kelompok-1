@@ -2,14 +2,12 @@ import React from "react";
 import MainContent from "@/components/Cards/MainContent";
 import Jumbotron from "@/components/Jumbotron/Jumbotron";
 import InfoContact from "@/components/InfoContact/InfoContact";
-import Paskibra from "@/components/Paskibra/Paskibra";
-
 
 const Home = () => {
   return (
     <>
       {/* Navbar */}
-<Paskibra />
+
       {/* End */}
       {/* Jumbotron */}
       {/* <Jumbotron /> */}
@@ -22,7 +20,7 @@ const Home = () => {
 
       {/* End */}
       {/* Jurusan */}
-      {/* <MainContent /> */}
+      <MainContent />
       {/* End */}
     </>
   );
