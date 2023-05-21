@@ -13,9 +13,9 @@ const Home = () => {
       <Jumbotron />
       {/* Info Contact */}
       <InfoContact />
-      
+
       {/* End */}
-      {/* Jurusan */}
+        {/* Jurusan */}
       <MainContent />
       {/* End */}
     </>
