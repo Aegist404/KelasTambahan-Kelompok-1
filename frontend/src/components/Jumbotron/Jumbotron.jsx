@@ -20,11 +20,11 @@ const Jumbotron = () => {
           <div className="mt-4 flex">
             <a
               href="#"
-              className="bg-gradient-to-r from-purple-400 to-purple-400 rounded-full flex py-2 px-6"
+              className="bg-gradient-to-r from-purple-400 to-purple-300 rounded-full flex py-2 px-6"
             >
               <span className="text-black font-bold mt-0.5 text-sm">SELENGKAPNYA</span>
               <img
-                src="/images/icons/arrow.svg"
+                src="/images/icons/arrowrIGHT.svg"
                 alt="arrowRight"
                 className="ml-2 mt-0.4"
               />
